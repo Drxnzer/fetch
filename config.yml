@@ -1,0 +1,11 @@
+data:
+  productId: "9nr94q85skhm"
+  skuId: "0010"
+  receiveMail: "croatcoad12@gmail.com"
+
+redeem_api:
+  base_url: ""  # A free API for testing purposes
+
+
+
+
