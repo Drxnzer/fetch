@@ -259,18 +259,14 @@ def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 text = r"""
-
-  █████▒██▀███   ▒█████  ▒███████▒▓█████  ███▄    █ 
-▓██   ▒▓██ ▒ ██▒▒██▒  ██▒▒ ▒ ▒ ▄▀░▓█   ▀  ██ ▀█   █ 
-▒████ ░▓██ ░▄█ ▒▒██░  ██▒░ ▒ ▄▀▒░ ▒███   ▓██  ▀█ ██▒
-░▓█▒  ░▒██▀▀█▄  ▒██   ██░  ▄▀▒   ░▒▓█  ▄ ▓██▒  ▐▌██▒
-░▒█░   ░██▓ ▒██▒░ ████▓▒░▒███████▒░▒████▒▒██░   ▓██░
- ▒ ░   ░ ▒▓ ░▒▓░░ ▒░▒░▒░ ░▒▒ ▓░▒░▒░░ ▒░ ░░ ▒░   ▒ ▒ 
- ░       ░▒ ░ ▒░  ░ ▒ ▒░ ░░▒ ▒ ░ ▒ ░ ░  ░░ ░░   ░ ▒░
- ░ ░     ░░   ░ ░ ░ ░ ▒  ░ ░ ░ ░ ░   ░      ░   ░ ░ 
-          ░         ░ ░    ░ ░       ░  ░         ░ 
-                         ░                          
-                         
+$$$$$$$\        $$\ $$\       $$\   $$\                               
+\__$$  __|       $$ |$$ |      $$$\  $$ |                              
+   $$ | $$$$$$\  $$ |$$ |  $$\ $$$$\ $$ | $$$$$$\   $$$$$$\  $$$$$$$\  
+   $$ | \____$$\ $$ |$$ | $$  |$$ $$\$$ |$$  __$$\ $$  __$$\ $$  __$$\ 
+   $$ | $$$$$$$ |$$ |$$$$$$  / $$ \$$$$ |$$$$$$$$ |$$ /  $$ |$$ |  $$ |
+   $$ |$$  __$$ |$$ |$$  _$$<  $$ |\$$$ |$$   ____|$$ |  $$ |$$ |  $$ |
+   $$ |\$$$$$$$ |$$ |$$ | \$$\ $$ | \$$ |\$$$$$$$\ \$$$$$$  |$$ |  $$ |
+   \__| \_______|\__|\__|  \__|\__|  \__| \_______| \______/ \__|  \__|  
 """
 
 
@@ -288,15 +284,15 @@ def screen(total, valid, invalid, checked, pm, pp, codes, xbox, balance, start, 
    · Total SkyBlock Coins: {totalsb}
 """
     print(f"""
-{Fore.RED+text}{Fore.RESET}
-○ {Fore.BLUE}Total Accounts: {total} ({checked}/{total})
+{Fore.MAGENTA+text}{Fore.RESET}
+○ {Fore.CYAN}Total Accounts: {total} ({checked}/{total})
 ○ {Fore.RED}Invalid: {invalid}
 ○ {Fore.GREEN}Sexy Hits: {valid}
    · PP: {pp}
    · Xbox: {xbox}
    · Codes: {codes}
-   · MC Codes: {0}
-   · CoinBase: {0}
+   · MC Codes: {0} (Available On Paid)
+   · CoinBase: {0} (Available On Paid)
 {txt} 
 """)
 

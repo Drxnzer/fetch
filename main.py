@@ -479,13 +479,13 @@ if __name__ == "__main__":
 
     if "1" in ask.lower():
         clear()
-        os.system("python modulees/sus/puller.py")  # Adjust path to include 'modules'
+        os.system("python modulees/puller.py")  # Adjust path to include 'modules'
     elif "3" in ask.lower():
         clear()
-        os.system("python modulees/sus/charg.py")  # Adjust path to include 'modules'
+        os.system("python modulees/charg.py")  # Adjust path to include 'modules'
     elif "4" in ask.lower():
         clear()
-        os.system("python modulees/sus/searcher.py")  # Adjust path to include 'modules'
+        os.system("python modulees/searcher.py")  # Adjust path to include 'modules'
     else:
         clear()
 
